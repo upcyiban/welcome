@@ -1,0 +1,404 @@
+body, html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei UI Light;
+    background: #f5f5f5
+}
+
+@media screen and (min-width: 768px) {
+    .header-moblie {
+        display: none
+    }
+
+    .MainPage {
+        width: 65%
+    }
+
+    .MainPage h1 {
+        margin-top: 60px
+    }
+
+    .header {
+        position: fixed;
+        z-index: 2;
+        height: 80px;
+        background: #fff;
+        background: hsla(0, 0%, 100%, .9)
+    }
+
+    .header, .header ul {
+        width: 100%
+    }
+
+    .header ul li {
+        width: 7em;
+        height: 100%
+    }
+
+    .header ul li .parent {
+        padding-top: 33px;
+        height: 47px
+    }
+
+    .header ul li .parent:hover {
+        background: #00bfff;
+        color: #fff
+    }
+
+    .header ul li .link-son {
+        background: #00bfff;
+        overflow: hidden;
+        height: 1em;
+        padding: 1em 0;
+        margin-bottom: 1px;
+        -webkit-transition: all .35s;
+        transition: all .35s;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+
+    .header ul li .link-son:hover {
+        background: #fff;
+        color: #00bfff
+    }
+
+    .header ul li:hover .link-son {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    .nav {
+        height: 700px;
+        padding-top: 100px;
+        width: 1180px
+    }
+
+    .nav ul {
+        width: 1000px
+    }
+
+    .nav ul li {
+        width: 450px;
+        margin: 0 20px 20px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-moblie {
+        display: block
+    }
+
+    .MainPage {
+        width: 90%;
+        margin-top: 50px
+    }
+
+    .header {
+        overflow: scroll;
+        overflow-x: hidden;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        height: 100%;
+        width: 55%;
+        background: #fff;
+        overflow: visible;
+        -webkit-transform: translate(-120%);
+        transform: translate(-120%)
+    }
+
+    .header ul {
+        margin: 0;
+        z-index: 3;
+        padding: 0
+    }
+
+    .header ul, .header ul li {
+        width: 100%;
+        overflow: visible
+    }
+
+    .header ul li {
+        margin: 1px 0;
+        box-shadow: 1px 1px 2px #dcdcdc;
+        height: 3em;
+    }
+
+    .header ul li a {
+        padding: 1em 0
+    }
+
+    .header ul li .link-son {
+        background: #f5f5f5;
+        height: auto;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        background: #fff;
+        overflow: hidden;
+        height: 1em;
+        padding: 1em 0;
+        border-top: 1px grey;
+        boder-bottom: grey 0;
+        -webkit-transition: all .35s;
+        transition: all .35s;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        opacity: 0
+    }
+
+    .header ul li .parent {
+        position: absolute
+    }
+
+    .header ul li > .link-son {
+        -webkit-transform: translate(-100%, -200%);
+        transform: translate(-100%, -200%)
+    }
+
+    /*.header ul li:hover .link-son {
+        opacity: 1;
+        background: #00bfff;
+        -webkit-transform: translate(100%, -200%);
+        transform: translate(100%, -200%)
+    }*/
+    .link-son-active {
+
+    }
+
+    .header ul .link-son:hover {
+        color: #fff
+    }
+
+    .header-active {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+
+    .nav {
+        height: 1140px;
+        width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .nav ul {
+        width: 100%;
+        padding: 0;
+        margin-top: 70px
+    }
+
+    .nav ul li {
+        width: 100%;
+        margin: 5px auto;
+
+    }
+
+    .nav ul li h2 {
+        margin: 8px
+    }
+
+    .nav ul li a:hover {
+        background: #00bfff;
+        color: #fff
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background: #00bfff;
+    color: #fff
+}
+
+.browserupgrade {
+    margin: .2em 0;
+    background: #ccc;
+    color: #000;
+    padding: .2em 0
+}
+
+.header-moblie {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background: #fff
+}
+
+.header, .header-moblie {
+    box-shadow: 1px 1px 50px #dcdcdc
+}
+
+.header {
+    -webkit-transition: all .35s;
+    transition: all .35s
+}
+
+.header ul {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0
+}
+
+.header ul li {
+    margin: 0 auto;
+    float: left
+}
+
+.header ul li a {
+    width: 100%;
+    text-align: center
+}
+
+.nav {
+    margin: 0 auto
+}
+
+.nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%
+}
+
+.nav ul li {
+    position: relative;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    float: left;
+    list-style-type: none;
+    height: 150px;
+    background: #fff;
+    box-shadow: 1px 1px 50px #dcdcdc;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav ul li a {
+    font-size: 15px
+}
+
+.nav ul li a:hover {
+    color: #00bfff;
+    background: #fff;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid #00bfff
+}
+
+.nav ul li .liIcon {
+    position: relative;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    margin: 10px;
+    border-radius: 50%
+}
+
+.nav ul li .LinkArr {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    height: 100%;
+    font-family: Microsoft YaHei UI Light;
+    color: #000
+}
+
+.nav ul li:hover .liIcon {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn)
+}
+
+.nav ul li:hover {
+    box-shadow: 1px 1px 50px #a9a9a9;
+    color: #000
+}
+
+.red, p1 {
+    color: red
+}
+
+.blue, p2 {
+    color: blue
+}
+
+.green, p3 {
+    color: green
+}
+
+.orange, p4 {
+    color: orange
+}
+
+p5 {
+    color: #a10
+}
+
+.MainPage {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    box-shadow: 1px 1px 50px #dcdcdc;
+    background: #fff
+}
+
+.MainPage h1 {
+    text-align: center
+}
+
+.MainPage p img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    background: #fff
+}
+
+footer h2, footer h3, footer h4, footer p {
+    text-align: center;
+    margin: 0 auto
+}
+
+.blurBG {
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    display: none;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+}
+
+.blurBG-active {
+    opacity: .4
+}

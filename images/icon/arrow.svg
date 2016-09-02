@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <style type="text/css"><![CDATA[
+@font-face { font-family: ifont; src: url("//at.alicdn.com/t/font_1442373896_4754455.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1442373896_4754455.woff") format("woff"), url("//at.alicdn.com/t/font_1442373896_4754455.ttf") format("truetype"), url("//at.alicdn.com/t/font_1442373896_4754455.svg#ifont") format("svg"); }
+
+]]></style>
+    </defs>
+    <g class="transform-group">
+        <g transform="scale(0.1953125, 0.1953125)">
+            <path d="M88.538 505.84c0 220.832 179.023 399.848 399.855 399.848 220.825 0 399.842-179.015 399.842-399.848 0-220.831-179.015-399.847-399.842-399.848-220.832-0.001-399.855 179.016-399.855 399.847zM838.259 505.84c0 193.231-156.646 349.866-349.866 349.866-193.223 0-349.867-156.636-349.867-349.866 0-193.223 156.645-349.865 349.867-349.865 193.221-0.001 349.866 156.643 349.867 349.865zM375.048 483.887c-5.999 5.985-10.921 14.192-9.559 21.952-1.362 7.761 3.56 15.968 9.559 21.966l191.348 191.348c9.762 9.748 25.581 9.747 35.341 0 9.762-9.762 9.762-25.587 0-35.35l-177.963-177.964 177.963-177.957c9.762-9.761 9.762-25.586 0-35.348-9.76-9.755-25.579-9.755-35.341 0l-191.348 191.352z"
+                  fill="#56abe4"></path>
+        </g>
+    </g>
+</svg>
